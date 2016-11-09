@@ -3,7 +3,7 @@ class Chaitools < Formula
   homepage "https://github.com/chaione/chaitools"
   url "https://github.com/chaione/chaitools/archive/0.2.0.tar.gz"
   version "0.2.0"
-  sha256 "fe9f514f2a05ae7282ba026c7f24e9c46776bb0cf995e19e47e0e35a8c2215e0"
+  sha256 "f1ea63534567744eccf0e6ab75ed65042ca0eaa9be9d60e2a06d800265792a99"
 
   # bottle do
   #   root_url "https://github.com/chaione/chaitools/releases/download/0.2.0"
