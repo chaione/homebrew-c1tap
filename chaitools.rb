@@ -1,9 +1,9 @@
 class Chaitools < Formula
   desc "Brew some great software with chaitools"
   homepage "https://github.com/chaione/chaitools"
-  url "https://github.com/chaione/chaitools/archive/0.2.0.tar.gz"
-  version "0.2.0"
-  sha256 "f1ea63534567744eccf0e6ab75ed65042ca0eaa9be9d60e2a06d800265792a99"
+  url "https://github.com/chaione/chaitools/archive/0.3.0.tar.gz"
+  version "0.3.0"
+  sha256 "2fac3dc51479efcb8766e4d2a1b39973811ddf80fbe7f3480c57ad92fcc5bb3e"
 
   # bottle do
   #   root_url "https://github.com/chaione/chaitools/releases/download/0.2.0"
@@ -14,6 +14,7 @@ class Chaitools < Formula
   depends_on :xcode => ["8.1", :build]
 
   def install
+    Dir.chdir("src")
     system "ln", "-s", "/usr/local/Homebrew/Library/Homebrew/shims/super/clang", "."
     system "swift", "build", "-c", "release"
     bin.install ".build/release/chaitools"
