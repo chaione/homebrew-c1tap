@@ -1,9 +1,9 @@
 class Chaitools < Formula
   desc "Brew some great software with chaitools"
   homepage "https://github.com/chaione/chaitools"
-  url "https://github.com/chaione/chaitools/archive/0.5.0.tar.gz"
-  version "0.5.0"
-  sha256 "1b898de93a488457bba9b7596a296d9ef46619bc71bc59eca7ed8226aa175c8c"
+  url "https://github.com/chaione/chaitools/archive/0.5.1.tar.gz"
+  version "0.5.1"
+  sha256 "c1e46fbf0cf6c5f53978fa96c976a665d90b94c72528b51331caa1db4af597f4"
 
   # bottle do
   #   root_url "https://github.com/chaione/chaitools/releases/download/0.2.0"
